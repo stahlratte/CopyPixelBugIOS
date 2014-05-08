@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+	
+	<meta title="CopyPixelBugIOS" package="com.example.copypixelbugios" version="1.0.0" company="Company Name" />
+	<app main="Main" path="Export" file="CopyPixelBugIOS" />
+	
+	
+	<window background="#000000" fps="60" />
+	<window width="1024" height="768" unless="mobile" />
+	<window orientation="landscape" vsync="false" antialiasing="4" if="cpp" />
+	
+	<source path="Source" />
+	
+	<haxelib name="openfl" />
+	
+	<assets path="Assets" rename="assets" exclude="openfl.svg" />
+	<icon path="Assets/openfl.svg" />
+	
+</project>
